@@ -22,9 +22,11 @@ This project implements a Conversational AI Agent for AutoStream, a fictional Sa
    ```
 
 3. Set up environment variables:
-   Create a `.env` file with your OpenAI API key:
+   Create a `.env` file with your API key (OpenAI or Google):
    ```
-   OPENAI_API_KEY=your_api_key_here
+   OPENAI_API_KEY=your_openai_key_here
+   # OR for Gemini:
+   GOOGLE_API_KEY=your_google_key_here
    ```
 
 4. Run the agent:
